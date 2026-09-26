@@ -3,8 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>박승애 Seungae Park — 지란지교소프트 대표이사</title>
-<meta name="description" content="박승애(Seungae Park) — 지란지교소프트 대표이사. 영업 현장에서 시작해 대표이사가 된 길, 인터뷰와 칼럼, 그리고 사람 중심의 경영 이야기.">
+<title>박승애 · 박쎄오 | 지란지교소프트 대표이사</title>
+<meta name="description" content="박승애, 박쎄오 — 지란지교소프트 대표이사. 고객의 문제에서 시작해 일하는 방식을 바꾸고, 대표의 자리에서 배운 것을 글로 씁니다.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@400;600;700&family=Pretendard:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -44,6 +44,9 @@
     margin-top:34px; font-size:18px; color:#d7dde6; font-weight:500;
   }
   .hero .role b{color:var(--accent2); font-weight:600}
+  .hero .nickname{margin-top:25px; color:var(--accent2); font-size:17px; font-weight:600; letter-spacing:.01em}
+  .hero .nickname span{color:var(--sub); font-size:14px; font-weight:400; margin-left:10px; letter-spacing:0}
+  @media (max-width:480px){.hero .nickname span{display:block; margin:3px 0 0}}
   .hero nav{margin-top:56px; display:flex; gap:14px; flex-wrap:wrap}
   .hero nav a{
     border:1px solid var(--line); color:#cfd6e0; padding:11px 22px; border-radius:999px;
@@ -62,6 +65,16 @@
 
   .about p{font-size:17px; color:#3a414d; margin-bottom:18px; max-width:720px}
   .about p b{color:var(--paper-ink)}
+
+  /* writing */
+  .writing-panel{background:var(--bg2); color:var(--ink); border-radius:18px; padding:38px 42px; border:1px solid var(--line)}
+  .writing-panel .kicker{color:var(--accent); font-size:13px; font-weight:700; letter-spacing:.18em; margin-bottom:14px}
+  .writing-panel h3{font-family:'Noto Serif KR',serif; font-size:clamp(24px,4vw,32px); line-height:1.4; margin-bottom:15px; word-break:keep-all}
+  .writing-panel p{max-width:690px; color:#c5cbd4; font-size:16px; line-height:1.8}
+  .writing-panel .writing-meta{color:var(--accent2); font-size:13px; margin-top:24px}
+  .writing-panel .writing-link{display:inline-block; margin-top:24px; border:1px solid #6b6354; border-radius:999px; padding:10px 20px; font-size:14px; color:var(--accent2); transition:.25s}
+  .writing-panel .writing-link:hover{background:var(--accent2); color:var(--bg)}
+  @media (max-width:600px){.writing-panel{padding:30px 25px}}
 
   /* career timeline */
   .timeline{list-style:none}
@@ -115,9 +128,11 @@
   <div class="wrap">
     <div class="eyebrow">CEO · JiranSoft</div>
     <h1>박승애<span class="en">Seungae Park</span></h1>
+    <div class="nickname">박쎄오 <span>박승애의 박 + CEO의 쎄오</span></div>
     <div class="role"><b>지란지교소프트 대표이사</b></div>
     <nav>
       <a href="#about">소개</a>
+      <a href="#writing">글</a>
       <a href="#career">걸어온 길</a>
       <a href="#interviews">인터뷰</a>
       <a href="#columns">칼럼</a>
@@ -133,6 +148,20 @@
     <p>2012년 영업 대리로 지란지교소프트에 입사해 8년 만인 2020년 대표이사에 올랐습니다. 현장에서 고객을 만나며 쌓은 감각이 오늘의 경영 철학을 만들었습니다.</p>
     <p>1994년에 설립된 <b>지란지교소프트</b>는 정보유출방지(DLP) 솔루션 <b>오피스키퍼</b>와 업무 협업 플랫폼 <b>오피스넥스트</b>를 통해 14,000여 고객사의 "편리하면서도 안전한 업무 환경"을 만들어가는 B2B SaaS 기업입니다.</p>
     <p>AI가 일하는 방식을 바꾸는 시대, 도구보다 사람이 먼저라는 관점으로 조직과 리더십, 일하는 문화에 대해 쓰고 말합니다.</p>
+  </div>
+</section>
+
+<section id="writing">
+  <div class="wrap">
+    <div class="sec-label">Writing</div>
+    <h2>박쎄오의 글</h2>
+    <div class="writing-panel">
+      <div class="kicker">CEO LETTER</div>
+      <h3>박쎄오레터</h3>
+      <p>대표가 된 첫날 구성원에게 편지를 썼습니다. 회사 안에서 마주한 질문과 사람에 관한 이야기를 편지로 나눕니다. 2020년 첫 편 이후 37편을 썼고, 최근에는 매달 이어가고 있습니다.</p>
+      <div class="writing-meta">사내 편지 · 2020.04~ · 37편</div>
+      <a class="writing-link" href="https://brunch.co.kr/@puha1027" target="_blank" rel="noopener noreferrer" aria-label="브런치에서 박쎄오의 글 보기">브런치에서 글 보기 ↗</a>
+    </div>
   </div>
 </section>
 
